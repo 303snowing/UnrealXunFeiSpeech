@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{9AFAD981-49AB-8C54-0F3B-C9807A6CF7D4}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UnrealXunFeiSpeech",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
