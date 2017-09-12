@@ -1,4 +1,0 @@
-﻿  Performing full C++ include scan (building a new target)
-  Creating makefile for UnrealXunFeiSpeechEditor (no existing makefile)
-EXEC : error : In E:\SVN\UnrealXunFeiSpeech\Source\UnrealXunFeiSpeech\Private\WinRec.cpp: #include "..\Public\WinRec.h" contains backslashes ('\'), please use forward slashes ('/') instead.
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: 命令“E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealXunFeiSpeechEditor Win64 Development "E:\SVN\UnrealXunFeiSpeech\UnrealXunFeiSpeech.uproject" -waitmutex”已退出，代码为 5。请验证您是否有足够的权限来运行此命令。

@@ -1,3 +1,0 @@
-E:\SVN\UnrealXunFeiSpeech\Source\UnrealXunFeiSpeech\UnrealXunFeiSpeech.Build.cs
-E:\SVN\UnrealXunFeiSpeech\Source\UnrealXunFeiSpeech.Target.cs
-E:\SVN\UnrealXunFeiSpeech\Source\UnrealXunFeiSpeechEditor.Target.cs
