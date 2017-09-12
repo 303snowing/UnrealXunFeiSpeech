@@ -202,3 +202,5 @@
  Binaries/
  DerivedDataCache/
  Intermediate/
+*.opendb
+*.db
