@@ -1,0 +1,22 @@
+﻿  Creating makefile for UnrealVersionSelector (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Performing 17 actions (4 in parallel)
+  [3/17] Resource Resource.rc
+  SharedPCH.Core.cpp
+  PCH.Core.cpp
+  Module.Core.9_of_9.cpp
+  Module.Core.8_of_9.cpp
+  Module.Core.7_of_9.cpp
+  Module.Projects.cpp
+  Module.Json.cpp
+  Module.Core.6_of_9.cpp
+  Module.Core.5_of_9.cpp
+  Module.Core.4_of_9.cpp
+  Module.Core.3_of_9.cpp
+  Module.Core.2_of_9.cpp
+  Module.Core.1_of_9.cpp
+  Module.UnrealVersionSelector.cpp
+  Module.DesktopPlatform.cpp
+  [17/17] Link UnrealVersionSelector.exe
+  Deploying UnrealVersionSelector Win64 Development...
+  Total build time: 83.95 seconds (Local executor: 81.24 seconds)

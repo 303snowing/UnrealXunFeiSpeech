@@ -1,0 +1,22 @@
+﻿  Creating makefile for UnrealCEFSubProcess (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Performing 17 actions (4 in parallel)
+  [3/17] Resource PCLaunch.rc
+  PCH.Core.cpp
+  SharedPCH.Core.cpp
+  Module.Core.9_of_9.cpp
+  Module.Core.8_of_9.cpp
+  Module.Core.7_of_9.cpp
+  Module.CEF3Utils.cpp
+  Module.Projects.cpp
+  Module.Json.cpp
+  Module.Core.6_of_9.cpp
+  Module.Core.5_of_9.cpp
+  Module.Core.4_of_9.cpp
+  Module.Core.3_of_9.cpp
+  Module.Core.2_of_9.cpp
+  Module.Core.1_of_9.cpp
+  Module.UnrealCEFSubProcess.cpp
+  [17/17] Link UnrealCEFSubProcess.exe
+  Deploying UnrealCEFSubProcess Win64 Development...
+  Total build time: 77.74 seconds (Local executor: 74.00 seconds)

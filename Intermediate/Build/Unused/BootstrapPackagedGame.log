@@ -1,0 +1,8 @@
+﻿  Creating makefile for BootstrapPackagedGame (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Performing 3 actions (4 in parallel)
+  [2/3] Resource PCLaunch.rc
+  BootstrapPackagedGame.cpp
+  [3/3] Link BootstrapPackagedGame.exe
+  Deploying BootstrapPackagedGame Win64 Development...
+  Total build time: 8.82 seconds (Local executor: 7.78 seconds)

@@ -1,0 +1,95 @@
+﻿  Creating makefile for UnrealLightmass (no existing makefile)
+  Building UnrealHeaderTool...
+  Target is up to date
+  Total build time: 0.19 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Parsing headers for UnrealLightmass
+    Running UnrealHeaderTool UnrealLightmass "E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -NoEnginePlugins
+  Reflection code generated for UnrealLightmass in 2.3111605 seconds
+  Performing 62 actions (4 in parallel)
+  [1/62] Resource ModuleVersionResource.rc.inl
+  [2/62] Resource PCLaunch.rc
+  SharedPCH.Core.cpp
+  SharedPCH.CoreUObject.cpp
+  PCH.Core.cpp
+  PCH.CoreUObject.cpp
+  Module.Json.cpp
+  Module.Core.9_of_9.cpp
+  Module.Core.8_of_9.cpp
+  Module.Core.7_of_9.cpp
+  Module.Core.6_of_9.cpp
+  Module.Core.5_of_9.cpp
+  Module.Core.3_of_9.cpp
+  Module.Core.2_of_9.cpp
+  Module.Core.1_of_9.cpp
+  Module.Core.4_of_9.cpp
+  Module.CoreUObject.3_of_6.cpp
+  Module.CoreUObject.1_of_6.cpp
+  Module.CoreUObject.2_of_6.cpp
+  [20/62] Link UnrealLightmass-Core.lib
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Core.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Core.exp
+  Module.CoreUObject.4_of_6.cpp
+  Module.CoreUObject.5_of_6.cpp
+  Module.CoreUObject.gen.cpp
+  Module.CoreUObject.6_of_6.cpp
+  Module.Sockets.cpp
+  Module.Projects.cpp
+  [27/62] Link UnrealLightmass-Json.lib
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Json.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Json.exp
+  Module.Serialization.cpp
+  Module.Serialization.gen.cpp
+  Module.Messaging.cpp
+  Module.SandboxFile.cpp
+  Module.SwarmInterface.gen.cpp
+  Module.Networking.cpp
+  Module.SwarmInterface.cpp
+  [35/62] Link UnrealLightmass-Sockets.lib
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Sockets.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Sockets.exp
+  [36/62] Link UnrealLightmass-Projects.lib
+  Module.UdpMessaging.gen.cpp
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Projects.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Projects.exp
+  Module.UdpMessaging.cpp
+  Module.UnrealLightmass.2_of_3.cpp
+  Module.UnrealLightmass.1_of_3.cpp
+  Module.UnrealLightmass.3_of_3.cpp
+  [42/62] Resource Resource.rc
+  [43/62] Link UnrealLightmass-Serialization.lib
+  [44/62] Link UnrealLightmass-SwarmInterface.lib
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Serialization.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Serialization.exp
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SwarmInterface.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SwarmInterface.exp
+  [45/62] Link UnrealLightmass-Networking.lib
+  [46/62] Link UnrealLightmass-SandboxFile.lib
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Networking.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Networking.exp
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SandboxFile.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SandboxFile.exp
+  [47/62] Link UnrealLightmass-Messaging.lib
+  [48/62] Link UnrealLightmass-Core.dll
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Messaging.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Messaging.exp
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Core.suppressed.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Core.suppressed.exp
+  [49/62] Link UnrealLightmass-CoreUObject.lib
+  [50/62] Link UnrealLightmass-CoreUObject.dll
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-CoreUObject.suppressed.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-CoreUObject.suppressed.exp
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-CoreUObject.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-CoreUObject.exp
+  [51/62] Link UnrealLightmass-UdpMessaging.dll
+    正在创建库 E:\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-UdpMessaging.suppressed.lib 和对象 E:\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-UdpMessaging.suppressed.exp
+  [52/62] Link UnrealLightmass-Serialization.dll
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Serialization.suppressed.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Serialization.suppressed.exp
+  [53/62] Link UnrealLightmass-SwarmInterface.dll
+  [54/62] Link UnrealLightmass-Projects.dll
+  [55/62] Link UnrealLightmass-Sockets.dll
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Projects.suppressed.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Projects.suppressed.exp
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SwarmInterface.suppressed.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SwarmInterface.suppressed.exp
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Sockets.suppressed.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Sockets.suppressed.exp
+  [56/62] Link UnrealLightmass-Networking.dll
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Networking.suppressed.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Networking.suppressed.exp
+  [57/62] Link UnrealLightmass-Messaging.dll
+  [58/62] Link UnrealLightmass-SandboxFile.dll
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Messaging.suppressed.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Messaging.suppressed.exp
+  [59/62] Link UnrealLightmass-Json.dll
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SandboxFile.suppressed.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SandboxFile.suppressed.exp
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Json.suppressed.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Json.suppressed.exp
+  [60/62] Link UnrealLightmass-UdpMessaging.lib
+    正在创建库 E:\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-UdpMessaging.lib 和对象 E:\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-UdpMessaging.exp
+  [61/62] Link UnrealLightmass.exe
+  [62/62] Link UnrealLightmass.lib
+    正在创建库 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass.lib 和对象 E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass.exp
+  Deploying UnrealLightmass Win64 Development...
+  Total build time: 204.31 seconds (Local executor: 169.72 seconds)

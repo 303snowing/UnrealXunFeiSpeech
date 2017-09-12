@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Program|Win32">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Program|x64">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|Win32">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|x64">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|Win32">
+			<Configuration>Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|x64">
+			<Configuration>Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|Win32">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|x64">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|x64">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{B259F5C4-BFEC-4DBA-9CB2-ED7DE0B77A32}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>SymbolDebugger</RootNamespace>
+       <PlatformToolset>v140</PlatformToolset>
+       <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+       <TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat SymbolDebugger Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SymbolDebugger Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SymbolDebugger Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Win32\SymbolDebugger-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat SymbolDebugger Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SymbolDebugger Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SymbolDebugger Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Win64\SymbolDebugger-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat SymbolDebugger Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SymbolDebugger Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SymbolDebugger Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Mac\SymbolDebugger-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat SymbolDebugger HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SymbolDebugger HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SymbolDebugger HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\HTML5\SymbolDebugger-HTML5-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat SymbolDebugger Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SymbolDebugger Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SymbolDebugger Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Win32\SymbolDebugger.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat SymbolDebugger Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SymbolDebugger Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SymbolDebugger Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Win64\SymbolDebugger.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat SymbolDebugger Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SymbolDebugger Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SymbolDebugger Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Mac\SymbolDebugger</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat SymbolDebugger HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat SymbolDebugger HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat SymbolDebugger HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\HTML5\SymbolDebugger.exe</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\SymbolDebugger.Target.cs" />
+		<None Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\SymbolDebugger.Build.cs" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Private\SSymbolDebugger.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Private\SSymbolDebugger.h" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Private\SymbolDebugger.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Private\SymbolDebugger.h" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Private\SymbolDebuggerApp.cpp" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Private\Mac\SymbolDebuggerMainMac.cpp" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Private\Windows\SymbolDebuggerMainWindows.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Public\SymbolDebuggerApp.h" />
+		<Manifest Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Resources\Windows\Debug-PCLaunch-Win32.manifest" />
+		<Manifest Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Resources\Windows\Debug-PCLaunch-Win64.manifest" />
+		<Manifest Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Resources\Windows\PCLaunch-Win32.manifest" />
+		<Manifest Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Resources\Windows\PCLaunch-Win64.manifest" />
+		<ResourceCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Resources\Windows\PCLaunch.rc" />
+	</ItemGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DATABASE_SUPPORT=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="SymbolDebugger-SymbolDebugger.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;SYMBOLDEBUGGER_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;SLATE_API=;COREUOBJECT_API=;INPUTCORE_API=;JSON_API=;SLATE_DEFERRED_DESIRED_SIZE=0;WITH_FREETYPE=1;SLATECORE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_API=;EDITORSTYLE_API=;STANDALONERENDERER_API=;DESKTOPPLATFORM_API=;CRASHDEBUGHELPER_API=;SOURCE_CONTROL_WITH_SLATE=1;SOURCECONTROL_API=;USE_P4_API=1;PERFORCESOURCECONTROL_API=;MESSAGELOG_API=;PROJECTS_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);E:\UnrealEngine\Engine\Source;E:\UnrealEngine\Engine\Source\Runtime\Launch\Private;E:\UnrealEngine\Engine\Source\Runtime\Launch\Public;E:\UnrealEngine\Engine\Source\Programs\SymbolDebugger\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\SymbolDebugger;E:\UnrealEngine\Engine\Source\Programs\SymbolDebugger;E:\UnrealEngine\Engine\Source\Runtime\Core\Public;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Internationalization;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Async;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Concurrency;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Containers;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Delegates;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\GenericPlatform;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\HAL;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Logging;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Math;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Misc;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\ProfilingDebugging;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization\Csv;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Stats;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Templates;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\UObject;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Windows;E:\UnrealEngine\Engine\Source\Runtime\Core;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Application;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Commands;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Docking;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Layout;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\MetaData;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Notifications;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Styling;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Text;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Views;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Colors;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Docking;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Images;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Input;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Layout;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Text;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Views;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\Slate;E:\UnrealEngine\Engine\Source\Runtime\Slate;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Blueprint;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Internationalization;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Misc;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Serialization;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Templates;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\UObject;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\CoreUObject;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject;E:\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;E:\UnrealEngine\Engine\Source\Runtime\InputCore\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\InputCore;E:\UnrealEngine\Engine\Source\Runtime\InputCore;E:\UnrealEngine\Engine\Source\Runtime\Json\Public;E:\UnrealEngine\Engine\Source\Runtime\Json\Public\Dom;E:\UnrealEngine\Engine\Source\Runtime\Json\Public\Policies;E:\UnrealEngine\Engine\Source\Runtime\Json\Public\Serialization;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\Json;E:\UnrealEngine\Engine\Source\Runtime\Json;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Animation;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Application;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Brushes;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Fonts;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Input;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Layout;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Logging;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Rendering;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Sound;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Stats;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Styling;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Textures;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Types;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Widgets;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\SlateCore;E:\UnrealEngine\Engine\Source\Runtime\SlateCore;E:\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public;E:\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\ImageWrapper;E:\UnrealEngine\Engine\Source\Runtime\ImageWrapper;E:\UnrealEngine\Engine\Source\Editor\EditorStyle\Public;E:\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Classes;E:\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\EditorStyle;E:\UnrealEngine\Engine\Source\Editor\EditorStyle;E:\UnrealEngine\Engine\Source\Developer\StandaloneRenderer\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\StandaloneRenderer;E:\UnrealEngine\Engine\Source\Developer\StandaloneRenderer;E:\UnrealEngine\Engine\Source\Developer\DesktopPlatform\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\DesktopPlatform;E:\UnrealEngine\Engine\Source\Developer\DesktopPlatform;E:\UnrealEngine\Engine\Source\Developer\CrashDebugHelper\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\CrashDebugHelper;E:\UnrealEngine\Engine\Source\Developer\CrashDebugHelper;E:\UnrealEngine\Engine\Source\Developer\SourceControl\Public;E:\UnrealEngine\Engine\Source\Developer\SourceControl\Public\Tests;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\SourceControl;E:\UnrealEngine\Engine\Source\Developer\SourceControl;E:\UnrealEngine\Engine\Plugins\Developer\PerforceSourceControl\Intermediate\Build\Win64\SymbolDebugger\Inc\PerforceSourceControl;E:\UnrealEngine\Engine\Plugins\Developer\PerforceSourceControl\Source\PerforceSourceControl;E:\UnrealEngine\Engine\Source\Developer\MessageLog\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\MessageLog;E:\UnrealEngine\Engine\Source\Developer\MessageLog;E:\UnrealEngine\Engine\Source\Runtime\Projects\Public;E:\UnrealEngine\Engine\Source\Runtime\Projects\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\SymbolDebugger\Inc\Projects;E:\UnrealEngine\Engine\Source\Runtime\Projects;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

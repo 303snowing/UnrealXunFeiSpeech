@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Program|Win32">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Program|x64">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|Win32">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|x64">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|Win32">
+			<Configuration>Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|x64">
+			<Configuration>Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|Win32">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|x64">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|x64">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{5909DA4E-A8EE-49C4-A2C2-6C7586B4EA75}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>UnrealFrontend</RootNamespace>
+       <PlatformToolset>v140</PlatformToolset>
+       <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+       <TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Win32\UnrealFrontend-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Win64\UnrealFrontend-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealFrontend Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Mac\UnrealFrontend-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealFrontend HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealFrontend HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\HTML5\UnrealFrontend-HTML5-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Win32\UnrealFrontend.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Win64\UnrealFrontend.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealFrontend Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\Mac\UnrealFrontend</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealFrontend HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>E:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealFrontend HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>E:\UnrealEngine\Engine\Binaries\HTML5\UnrealFrontend.exe</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
+		<None Include="..\..\..\..\UnrealEngine\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini" />
+		<None Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.h" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.h" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.h" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.h" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.h" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.h" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.h" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp" />
+		<ClCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp" />
+		<Manifest Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win32.manifest" />
+		<Manifest Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win64.manifest" />
+		<Manifest Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win32.manifest" />
+		<Manifest Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win64.manifest" />
+		<None Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.ico" />
+		<ResourceCompile Include="..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.rc" />
+	</ItemGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=1;WITH_PLUGIN_SUPPORT=1;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=0;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UnrealFrontend.exe";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;UNREALFRONTEND_API=;AUTOMATIONCONTROLLER_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;DEVICEMANAGER_API=;TARGETDEVICESERVICES_API=;LAUNCHERSERVICES_API=;MESSAGING_API=;PROFILER_API=;INPUTCORE_API=;RHI_API=;RENDERCORE_API=;SLATE_API=;JSON_API=;SLATE_DEFERRED_DESIRED_SIZE=0;WITH_FREETYPE=1;SLATECORE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_API=;EDITORSTYLE_API=;PROFILERCLIENT_API=;PROFILERSERVICE_API=;DESKTOPPLATFORM_API=;PROJECTLAUNCHER_API=;TARGETPLATFORM_API=;LAUNCHERPLATFORM_API=;PROJECTS_API=;SESSIONFRONTEND_API=;SESSIONSERVICES_API=;SOURCECODEACCESS_API=;SETTINGS_API=;STANDALONERENDERER_API=;VSACCESSOR_HAS_DTE=1;VISUALSTUDIOSOURCECODEACCESS_API=;NETWORKING_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;UDPMESSAGING_API=;TCPMESSAGING_API=;SLATE_REFLECTOR_HAS_SESSION_SERVICES=0;SLATE_REFLECTOR_HAS_DESKTOP_PLATFORM=1;SLATEREFLECTOR_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);E:\UnrealEngine\Engine\Source;E:\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private;E:\UnrealEngine\Engine\Source\Programs\UnrealFrontend\Private\Commands;E:\UnrealEngine\Engine\Source\Runtime\Launch\Private;E:\UnrealEngine\Engine\Source\Runtime\Launch\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\UnrealFrontend;E:\UnrealEngine\Engine\Source\Programs\UnrealFrontend;E:\UnrealEngine\Engine\Source\Developer\AutomationController\Public;E:\UnrealEngine\Engine\Source\Developer\AutomationController\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\AutomationController;E:\UnrealEngine\Engine\Source\Developer\AutomationController;E:\UnrealEngine\Engine\Source\Runtime\Core\Public;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Internationalization;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Async;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Concurrency;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Containers;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Delegates;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\GenericPlatform;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\HAL;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Logging;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Math;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Misc;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\ProfilingDebugging;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization\Csv;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Stats;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Templates;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\UObject;E:\UnrealEngine\Engine\Source\Runtime\Core\Public\Windows;E:\UnrealEngine\Engine\Source\Runtime\Core;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Blueprint;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Internationalization;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Misc;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Serialization;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Templates;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\UObject;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\CoreUObject;E:\UnrealEngine\Engine\Source\Runtime\CoreUObject;E:\UnrealEngine\Engine\Source\Developer\DeviceManager\Public;E:\UnrealEngine\Engine\Source\Developer\DeviceManager\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\DeviceManager;E:\UnrealEngine\Engine\Source\Developer\DeviceManager;E:\UnrealEngine\Engine\Source\Developer\TargetDeviceServices\Classes;E:\UnrealEngine\Engine\Source\Developer\TargetDeviceServices\Public;E:\UnrealEngine\Engine\Source\Developer\TargetDeviceServices\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\TargetDeviceServices;E:\UnrealEngine\Engine\Source\Developer\TargetDeviceServices;E:\UnrealEngine\Engine\Source\Developer\LauncherServices\Public;E:\UnrealEngine\Engine\Source\Developer\LauncherServices\Public\Common;E:\UnrealEngine\Engine\Source\Developer\LauncherServices\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\LauncherServices;E:\UnrealEngine\Engine\Source\Developer\LauncherServices;E:\UnrealEngine\Engine\Source\Runtime\Messaging\Public;E:\UnrealEngine\Engine\Source\Runtime\Messaging\Public\Deprecated;E:\UnrealEngine\Engine\Source\Runtime\Messaging\Public\Helpers;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Messaging;E:\UnrealEngine\Engine\Source\Runtime\Messaging;E:\UnrealEngine\Engine\Source\Developer\Profiler\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Profiler;E:\UnrealEngine\Engine\Source\Developer\Profiler;E:\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;E:\UnrealEngine\Engine\Source\Runtime\InputCore\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\InputCore;E:\UnrealEngine\Engine\Source\Runtime\InputCore;E:\UnrealEngine\Engine\Source\Runtime\RHI\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\RHI;E:\UnrealEngine\Engine\Source\Runtime\RHI;E:\UnrealEngine\Engine\Source\Runtime\RenderCore\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\RenderCore;E:\UnrealEngine\Engine\Source\Runtime\RenderCore;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Application;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Commands;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Docking;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Layout;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\MetaData;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Notifications;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Styling;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Text;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Views;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Colors;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Docking;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Images;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Input;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Layout;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Text;E:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Views;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Slate;E:\UnrealEngine\Engine\Source\Runtime\Slate;E:\UnrealEngine\Engine\Source\Runtime\Json\Public;E:\UnrealEngine\Engine\Source\Runtime\Json\Public\Dom;E:\UnrealEngine\Engine\Source\Runtime\Json\Public\Policies;E:\UnrealEngine\Engine\Source\Runtime\Json\Public\Serialization;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Json;E:\UnrealEngine\Engine\Source\Runtime\Json;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Animation;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Application;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Brushes;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Fonts;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Input;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Layout;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Logging;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Rendering;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Sound;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Stats;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Styling;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Textures;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Types;E:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Widgets;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SlateCore;E:\UnrealEngine\Engine\Source\Runtime\SlateCore;E:\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public;E:\UnrealEngine\Engine\Source\Runtime\ImageWrapper\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ImageWrapper;E:\UnrealEngine\Engine\Source\Runtime\ImageWrapper;E:\UnrealEngine\Engine\Source\Editor\EditorStyle\Public;E:\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Classes;E:\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\EditorStyle;E:\UnrealEngine\Engine\Source\Editor\EditorStyle;E:\UnrealEngine\Engine\Source\Developer\ProfilerClient\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ProfilerClient;E:\UnrealEngine\Engine\Source\Developer\ProfilerClient;E:\UnrealEngine\Engine\Source\Developer\ProfilerService\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ProfilerService;E:\UnrealEngine\Engine\Source\Developer\ProfilerService;E:\UnrealEngine\Engine\Source\Developer\DesktopPlatform\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\DesktopPlatform;E:\UnrealEngine\Engine\Source\Developer\DesktopPlatform;E:\UnrealEngine\Engine\Source\Developer\ProjectLauncher\Public;E:\UnrealEngine\Engine\Source\Developer\ProjectLauncher\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ProjectLauncher;E:\UnrealEngine\Engine\Source\Developer\ProjectLauncher;E:\UnrealEngine\Engine\Source\Developer\TargetPlatform\Public;E:\UnrealEngine\Engine\Source\Developer\TargetPlatform\Public\Common;E:\UnrealEngine\Engine\Source\Developer\TargetPlatform\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\TargetPlatform;E:\UnrealEngine\Engine\Source\Developer\TargetPlatform;E:\UnrealEngine\Engine\Source\Runtime\Portal\LauncherPlatform\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\LauncherPlatform;E:\UnrealEngine\Engine\Source\Runtime\Portal\LauncherPlatform;E:\UnrealEngine\Engine\Source\Runtime\Projects\Public;E:\UnrealEngine\Engine\Source\Runtime\Projects\Public\Interfaces;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Projects;E:\UnrealEngine\Engine\Source\Runtime\Projects;E:\UnrealEngine\Engine\Source\Developer\SessionFrontend\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SessionFrontend;E:\UnrealEngine\Engine\Source\Developer\SessionFrontend;E:\UnrealEngine\Engine\Source\Runtime\SessionServices\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SessionServices;E:\UnrealEngine\Engine\Source\Runtime\SessionServices;E:\UnrealEngine\Engine\Source\Developer\SourceCodeAccess\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SourceCodeAccess;E:\UnrealEngine\Engine\Source\Developer\SourceCodeAccess;E:\UnrealEngine\Engine\Source\Developer\Settings\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Settings;E:\UnrealEngine\Engine\Source\Developer\Settings;E:\UnrealEngine\Engine\Source\Developer\StandaloneRenderer\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\StandaloneRenderer;E:\UnrealEngine\Engine\Source\Developer\StandaloneRenderer;E:\UnrealEngine\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Intermediate\Build\Win64\UnrealFrontend\Inc\VisualStudioSourceCodeAccess;E:\UnrealEngine\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Source\VisualStudioSourceCodeAccess;E:\UnrealEngine\Engine\Source\Runtime\Networking\Public;E:\UnrealEngine\Engine\Source\Runtime\Networking\Public\Common;E:\UnrealEngine\Engine\Source\Runtime\Networking\Public\Interfaces;E:\UnrealEngine\Engine\Source\Runtime\Networking\Public\Interfaces\IPv4;E:\UnrealEngine\Engine\Source\Runtime\Networking\Public\Interfaces\Steam;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Networking;E:\UnrealEngine\Engine\Source\Runtime\Networking;E:\UnrealEngine\Engine\Source\Runtime\Sockets\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Sockets;E:\UnrealEngine\Engine\Source\Runtime\Sockets;E:\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;E:\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UnrealFrontend\Inc\UdpMessaging;E:\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging;E:\UnrealEngine\Engine\Plugins\Messaging\TcpMessaging\Source\TcpMessaging\Public;E:\UnrealEngine\Engine\Plugins\Messaging\TcpMessaging\Intermediate\Build\Win64\UnrealFrontend\Inc\TcpMessaging;E:\UnrealEngine\Engine\Plugins\Messaging\TcpMessaging\Source\TcpMessaging;E:\UnrealEngine\Engine\Source\Developer\SlateReflector\Public;E:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SlateReflector;E:\UnrealEngine\Engine\Source\Developer\SlateReflector;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

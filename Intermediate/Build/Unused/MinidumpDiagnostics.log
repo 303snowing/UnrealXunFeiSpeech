@@ -1,0 +1,57 @@
+﻿  Creating makefile for MinidumpDiagnostics (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Building UnrealHeaderTool...
+  Target is up to date
+  Total build time: 0.18 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Parsing headers for MinidumpDiagnostics
+    Running UnrealHeaderTool MinidumpDiagnostics "E:\UnrealEngine\Engine\Intermediate\Build\Win64\MinidumpDiagnostics\Development\MinidumpDiagnostics.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -NoEnginePlugins
+  Reflection code generated for MinidumpDiagnostics in 1.5918519 seconds
+  Performing 46 actions (4 in parallel)
+  SharedPCH.CoreUObject.cpp
+  PCH.Core.cpp
+  PCH.CoreUObject.cpp
+  SharedPCH.Core.cpp
+  SharedPCH.Slate.cpp
+  SharedPCH.Slate.NonOptimized.cpp
+  PCH.ImageWrapper.cpp
+  Module.InputCore.gen.cpp
+  Module.SlateCore.cpp
+  Module.SlateCore.gen.cpp
+  Module.ImageWrapper.cpp
+  Module.Slate.1_of_5.cpp
+  Module.CrashDebugHelper.cpp
+  Module.SourceControl.cpp
+  Module.Slate.3_of_5.cpp
+  Module.SourceControl.gen.cpp
+  Module.Slate.4_of_5.cpp
+  Module.InputCore.cpp
+  Module.Slate.gen.cpp
+  Module.DesktopPlatform.cpp
+  Module.EditorStyle.cpp
+  Module.EditorStyle.gen.cpp
+  Module.Slate.2_of_5.cpp
+  Module.Slate.5_of_5.cpp
+  Module.CoreUObject.gen.cpp
+  Module.CoreUObject.6_of_6.cpp
+  Module.MinidumpDiagnostics.cpp
+  Module.Core.1_of_9.cpp
+  Module.Core.2_of_9.cpp
+  Module.Core.3_of_9.cpp
+  Module.Core.4_of_9.cpp
+  Module.Core.5_of_9.cpp
+  Module.Core.6_of_9.cpp
+  Module.PerforceSourceControl.cpp
+  Module.Core.7_of_9.cpp
+  Module.Core.9_of_9.cpp
+  Module.Json.cpp
+  Module.Projects.cpp
+  Module.CoreUObject.1_of_6.cpp
+  Module.CoreUObject.2_of_6.cpp
+  Module.CoreUObject.3_of_6.cpp
+  Module.CoreUObject.4_of_6.cpp
+  Module.CoreUObject.5_of_6.cpp
+  Module.Core.8_of_9.cpp
+  [45/46] Resource PCLaunch.rc
+  [46/46] Link MinidumpDiagnostics.exe
+  Deploying MinidumpDiagnostics Win64 Development...
+  Total build time: 262.05 seconds (Local executor: 252.15 seconds)

@@ -1,0 +1,70 @@
+﻿  Creating makefile for SlateViewer (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Building UnrealHeaderTool...
+  Target is up to date
+  Total build time: 0.19 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Parsing headers for SlateViewer
+    Running UnrealHeaderTool SlateViewer "E:\UnrealEngine\Engine\Intermediate\Build\Win64\SlateViewer\Development\SlateViewer.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -NoEnginePlugins
+  Reflection code generated for SlateViewer in 1.3304901 seconds
+  Performing 59 actions (4 in parallel)
+  SharedPCH.CoreUObject.cpp
+  PCH.Core.cpp
+  SharedPCH.Slate.cpp
+  PCH.CoreUObject.cpp
+  SharedPCH.Core.cpp
+  SharedPCH.Slate.NonOptimized.cpp
+  PCH.ImageWrapper.cpp
+  Module.Serialization.cpp
+  Module.Slate.1_of_5.cpp
+  Module.Slate.2_of_5.cpp
+  Module.WebBrowser.gen.cpp
+  Module.Slate.3_of_5.cpp
+  Module.Slate.4_of_5.cpp
+  Module.Slate.5_of_5.cpp
+  Module.Slate.gen.cpp
+  Module.AssetRegistry.cpp
+  Module.AssetRegistry.gen.cpp
+  Module.WebBrowser.cpp
+  Module.DesktopPlatform.cpp
+  Module.Messaging.cpp
+  Module.CEF3Utils.cpp
+  Module.ImageWrapper.cpp
+  Module.SlateReflector.gen.cpp
+  Module.AppFramework.cpp
+  Module.StandaloneRenderer.cpp
+  Module.Settings.cpp
+  Module.SourceCodeAccess.cpp
+  Module.SourceCodeAccess.gen.cpp
+  Module.RHI.cpp
+  Module.Serialization.gen.cpp
+  Module.SlateReflector.cpp
+  Module.InputCore.gen.cpp
+  Module.SlateCore.cpp
+  Module.SlateViewer.cpp
+  Module.EditorStyle.cpp
+  Module.EditorStyle.gen.cpp
+  Module.Core.1_of_9.cpp
+  Module.Core.2_of_9.cpp
+  Module.Core.3_of_9.cpp
+  Module.Core.4_of_9.cpp
+  Module.Core.5_of_9.cpp
+  Module.Core.6_of_9.cpp
+  Module.Core.7_of_9.cpp
+  Module.SlateCore.gen.cpp
+  Module.Core.8_of_9.cpp
+  Module.Json.cpp
+  Module.Projects.cpp
+  Module.CoreUObject.1_of_6.cpp
+  Module.CoreUObject.2_of_6.cpp
+  Module.CoreUObject.3_of_6.cpp
+  Module.CoreUObject.4_of_6.cpp
+  Module.CoreUObject.5_of_6.cpp
+  Module.CoreUObject.6_of_6.cpp
+  Module.CoreUObject.gen.cpp
+  Module.InputCore.cpp
+  Module.VisualStudioSourceCodeAccess.cpp
+  Module.Core.9_of_9.cpp
+  [58/59] Resource PCLaunch.rc
+  [59/59] Link SlateViewer.exe
+  Deploying SlateViewer Win64 Development...
+  Total build time: 358.32 seconds (Local executor: 342.00 seconds)

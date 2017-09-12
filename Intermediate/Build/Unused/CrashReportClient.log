@@ -1,0 +1,69 @@
+﻿  Creating makefile for CrashReportClient (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Building UnrealHeaderTool...
+  Target is up to date
+  Total build time: 1.03 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Parsing headers for CrashReportClient
+    Running UnrealHeaderTool CrashReportClient "E:\UnrealEngine\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -NoEnginePlugins
+  Reflection code generated for CrashReportClient in 1.7956823 seconds
+  Performing 58 actions (4 in parallel)
+  PCH.Core.cpp
+  SharedPCH.Core.cpp
+  PCH.CoreUObject.cpp
+  SharedPCH.CoreUObject.cpp
+  SharedPCH.Slate.cpp
+  SharedPCH.Slate.NonOptimized.cpp
+  PCH.ImageWrapper.cpp
+  Module.Slate.2_of_5.cpp
+  Module.Slate.3_of_5.cpp
+  Module.Slate.5_of_5.cpp
+  Module.Slate.gen.cpp
+  Module.DesktopPlatform.cpp
+  Module.ImageWrapper.cpp
+  Module.SourceControl.cpp
+  Module.SourceControl.gen.cpp
+  Module.Slate.1_of_5.cpp
+  Module.Slate.4_of_5.cpp
+  Module.CrashDebugHelper.cpp
+  Module.HTTP.cpp
+  Module.XmlParser.cpp
+  Module.Analytics.cpp
+  Module.AnalyticsET.cpp
+  Module.LauncherPlatform.cpp
+  Module.StandaloneRenderer.cpp
+  Module.MessageLog.cpp
+  Module.AssetRegistry.cpp
+  Module.AssetRegistry.gen.cpp
+  Module.Messaging.cpp
+  Module.SlateReflector.cpp
+  Module.SSL.cpp
+  Module.SlateCore.gen.cpp
+  Module.InputCore.cpp
+  Module.InputCore.gen.cpp
+  Module.CrashReportClient.cpp
+  Module.EditorStyle.cpp
+  Module.EditorStyle.gen.cpp
+  Module.Core.1_of_9.cpp
+  Module.Core.2_of_9.cpp
+  Module.Core.3_of_9.cpp
+  Module.Core.4_of_9.cpp
+  Module.Core.5_of_9.cpp
+  Module.Core.6_of_9.cpp
+  Module.Core.7_of_9.cpp
+  Module.SlateCore.cpp
+  Module.Core.8_of_9.cpp
+  Module.Json.cpp
+  Module.Projects.cpp
+  Module.CoreUObject.1_of_6.cpp
+  Module.CoreUObject.2_of_6.cpp
+  Module.CoreUObject.3_of_6.cpp
+  Module.CoreUObject.4_of_6.cpp
+  Module.CoreUObject.5_of_6.cpp
+  Module.CoreUObject.6_of_6.cpp
+  Module.CoreUObject.gen.cpp
+  Module.SlateReflector.gen.cpp
+  Module.Core.9_of_9.cpp
+  [57/58] Resource CrashReportClient.rc
+  [58/58] Link CrashReportClient-Win64-Development.exe
+  Deploying CrashReportClient Win64 Development...
+  Total build time: 298.59 seconds (Local executor: 262.87 seconds)
