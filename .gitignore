@@ -8,7 +8,7 @@ Binaries/
 Debug/
 DerivedDataCache/
 Intermediate/
-/Saved
+Saved/
 *.sln
 *.opendb
 *.db
