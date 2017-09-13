@@ -4,9 +4,12 @@
 #Unreal Engine need not folder
 .vs/
 Binaries/
+!Binaries/*.dll
 Debug/
 DerivedDataCache/
 Intermediate/
+/Saved
 *.sln
 *.opendb
 *.db
+
