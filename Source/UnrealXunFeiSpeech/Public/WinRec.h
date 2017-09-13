@@ -56,6 +56,11 @@ class FWinRec
 {
 	friend static unsigned int  __stdcall record_thread_proc(void * para); /* the recording callback thread procedure */
 
+public:
+	FWinRec() = default;
+	FWinRec(FString);
+	~FWinRec();
+
 private:
 	void dbg_wave_header(WAVEHDR * buf);
 	int create_callback_thread(void *thread_proc_para, HANDLE *thread_hdl_out);
@@ -72,10 +77,6 @@ private:
 	void close_recorder_internal(struct recorder *rec);
 
 public:
-	FWinRec() = default;
-	FWinRec(FString);
-	~FWinRec();
-
 	/**
 	* @fn
 	* @brief	Get the default input device ID
