@@ -12,7 +12,6 @@
 #include <windows.h>
 
 #include "qisr.h"
-#include "qisr.h"
 #include "msp_cmn.h"
 #include "msp_errors.h"
 
@@ -85,4 +84,4 @@ public:
 
 };
 
-static  FSpeechRecoginzer * speechrecoginzer = new FSpeechRecoginzer("Speech Recoginzer be created !");
+static  FSpeechRecoginzer * speechrecoginzer = new FSpeechRecoginzer("static soeech recoginzer be created !");

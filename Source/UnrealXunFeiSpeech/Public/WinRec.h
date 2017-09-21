@@ -157,5 +157,5 @@ public:
 	int is_record_stopped(struct recorder *rec);
 };
 
-static FWinRec * winrec = new FWinRec(FString("WinRec be created !"));
+static FWinRec * winrec = new FWinRec(FString("static winrec be created !"));
 
