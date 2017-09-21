@@ -12,7 +12,9 @@ UCLASS()
 class UNREALXUNFEISPEECH_API ASpeechActor : public AActor
 {
 	GENERATED_BODY()
-	
+private:
+	FString Result;
+
 public:	
 	// Sets default values for this actor's properties
 	ASpeechActor();
@@ -31,9 +33,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "XunFei", meta = (DisplayName = "SpeechOpen", Keywords = "Speech Recognition Open"))
 		void SpeechOpen();
 
+	UFUNCTION(BlueprintCallable, Category = "XunFei", meta = (DisplayName = "SpeechStop", Keywords = "Speech Recognition Stop"))
+		void SpeechStop();
+
 	UFUNCTION(BlueprintCallable, Category = "XunFei", meta = (DisplayName = "SpeechResult", Keywords = "Speech Recognition GetResult"))
 		FString SpeechResult();
-
-	
-	
 };

@@ -3,9 +3,15 @@
 
 #include "SpeechActor.h"
 
+#include "Serialization/JsonReader.h"
+#include "Dom/JsonObject.h"
+#include "Serialization/JsonSerializer.h"
+
+
 
 // Sets default values
-ASpeechActor::ASpeechActor()
+ASpeechActor::ASpeechActor() :
+	Result{}
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
@@ -16,7 +22,6 @@ ASpeechActor::ASpeechActor()
 void ASpeechActor::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -50,11 +55,29 @@ void ASpeechActor::SpeechOpen()
 	return;
 }
 
-FString ASpeechActor::SpeechResult()
+void ASpeechActor::SpeechStop()
 {
 	xunfeispeech->SetStop();
-	Sleep(300);
-	UE_LOG(SnowingError, Error, TEXT("%s"), *FString(UTF8_TO_TCHAR(xunfeispeech->get_result())));
-	return TEXT("speech result !");
+	return;
+}
+
+FString ASpeechActor::SpeechResult()
+{	
+	Result = FString(UTF8_TO_TCHAR(xunfeispeech->get_result()));
+	TSharedPtr<FJsonObject> JsonObject;
+	TSharedRef< TJsonReader<TCHAR> > Reader = TJsonReaderFactory<TCHAR>::Create(Result);
+	if (FJsonSerializer::Deserialize(Reader, JsonObject))
+	{
+		Result.Reset();
+		TArray< TSharedPtr<FJsonValue> > TempArray = JsonObject->GetArrayField("ws");
+		for (auto rs : TempArray)
+		{
+			Result.Append((rs->AsObject()->GetArrayField("cw"))[0]->AsObject()->GetStringField("w"));
+		}
+	}
+	UE_LOG(SnowingError, Error, TEXT("%s"), *Result);
+	
+	return Result;
+	
 }
 

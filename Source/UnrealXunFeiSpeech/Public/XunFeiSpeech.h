@@ -26,6 +26,9 @@ class FXunFeiSpeech
 {
 
 public:
+	struct speech_rec iat;
+
+public:
 
 	FXunFeiSpeech();
 	FXunFeiSpeech(FString);

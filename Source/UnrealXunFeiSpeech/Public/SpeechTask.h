@@ -10,7 +10,7 @@ class FSpeechTask : public FNonAbandonableTask
 
 	FSpeechTask()
 	{
-		UE_LOG(SnowingWarning, Warning, TEXT("Speech Task Object be Create !"));
+		UE_LOG(SnowingWarning, Warning, TEXT("Speech Task be Create !"));
 	}
 
 	void DoWork();
