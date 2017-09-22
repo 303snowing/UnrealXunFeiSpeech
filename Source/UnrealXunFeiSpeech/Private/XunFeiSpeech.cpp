@@ -97,7 +97,7 @@ void FXunFeiSpeech::speech_mic(const char* session_beging_params)
 	int errcode;
 	int i = 0;
 
-	//struct speech_rec iat;
+	struct speech_rec iat;
 	DWORD waiters;
 	char isquit = 0;
 

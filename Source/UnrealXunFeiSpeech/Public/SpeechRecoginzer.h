@@ -16,6 +16,7 @@
 #include "msp_errors.h"
 
 #include "WinRec.h"
+#include "SpeechActor.h"
 
 enum sr_audsrc
 {
@@ -55,6 +56,9 @@ struct speech_rec {
 
 DECLARE_LOG_CATEGORY_EXTERN(SpeechRecoginzer, Warning, All);
 
+//ÉùÃ÷´úÀí
+//DECLARE_DELEGATE_RetVal(FString, OnGetResult)
+
 class FSpeechRecoginzer
 {
 	friend static void iat_cb(char *data, unsigned long len, void *user_para);
@@ -63,6 +67,8 @@ public:
 	FSpeechRecoginzer() = default;
 	FSpeechRecoginzer(FString);
 	virtual ~FSpeechRecoginzer();
+
+	//OnGetResult GettedResult;
 
 private:
 	void end_sr_on_error(struct speech_rec *sr, int errcode);

@@ -61,9 +61,22 @@ void ASpeechActor::SpeechStop()
 	return;
 }
 
+void ASpeechActor::SpeechQuit()
+{
+	xunfeispeech->SetQuit();
+	Sleep(300);
+	return;
+}
+
 FString ASpeechActor::SpeechResult()
 {	
 	Result = FString(UTF8_TO_TCHAR(xunfeispeech->get_result()));
+	FString LajiString("{\"sn\":2,\"ls\":true,\"bg\":0,\"ed\":0,\"ws\":[{\"bg\":0,\"cw\":[{\"sc\":0.00,\"w\":\"\"}]}]}");
+	int32 LajiIndex = Result.Find(*LajiString);
+	if (LajiIndex != -1)
+	{
+		Result.RemoveFromEnd(LajiString);
+	}
 	TSharedPtr<FJsonObject> JsonObject;
 	TSharedRef< TJsonReader<TCHAR> > Reader = TJsonReaderFactory<TCHAR>::Create(Result);
 	if (FJsonSerializer::Deserialize(Reader, JsonObject))

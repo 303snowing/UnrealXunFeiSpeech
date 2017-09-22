@@ -16,6 +16,8 @@
 	sizeof(WAVEFORMATEX)	\
 }
 
+
+
 /* internal state */
 enum {
 	SR_STATE_INIT,
@@ -172,6 +174,9 @@ int FSpeechRecoginzer::sr_init(struct speech_rec * sr, const char * session_begi
 		}
 	}
 
+	//绑定代理
+	//GettedResult.BindUObject(ASpeechActor, ASpeechActor::SpeechResult);
+
 	return 0;
 
 fail:
@@ -267,6 +272,9 @@ int FSpeechRecoginzer::sr_stop_listening(struct speech_rec *sr)
 			sr->notif.on_result(rslt, sr->rec_stat == MSP_REC_STATUS_COMPLETE ? 1 : 0);
 		Sleep(100);
 	}
+
+	//此处委托SpeechActor的SpeechResult方法
+	//GettedResult.Execute();
 
 	QISRSessionEnd(sr->session_id, "normal");
 	sr->session_id = NULL;

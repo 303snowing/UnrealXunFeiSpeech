@@ -26,7 +26,7 @@ class FXunFeiSpeech
 {
 
 public:
-	struct speech_rec iat;
+	//struct speech_rec iat;
 
 public:
 

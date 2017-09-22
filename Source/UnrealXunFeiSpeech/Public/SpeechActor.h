@@ -36,6 +36,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "XunFei", meta = (DisplayName = "SpeechStop", Keywords = "Speech Recognition Stop"))
 		void SpeechStop();
 
+	UFUNCTION(BlueprintCallable, Category = "XunFei", meta = (DisplayName = "SpeechQuit", Keywords = "Speech Recognition Quit"))
+		void SpeechQuit();
+
 	UFUNCTION(BlueprintCallable, Category = "XunFei", meta = (DisplayName = "SpeechResult", Keywords = "Speech Recognition GetResult"))
 		FString SpeechResult();
 };
